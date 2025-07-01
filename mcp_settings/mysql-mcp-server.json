@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "mysql": {
+      "command": "npx",
+      "args": [
+        "mysql-mcp-server"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "lz71495",
+        "MYSQL_PASSWORD": "Mysql#edc4rfv",
+        "MYSQL_DATABASE": "world"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "list_tables",
+        "list_databases",
+        "describe_table",
+        "execute_query"
+      ]
+    }
+  }
+}
